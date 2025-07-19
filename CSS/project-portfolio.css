@@ -40,6 +40,16 @@
     font-size: 20px;
 }
 
+.section-title{
+    font-weight: bold;
+    font-size:35px;
+    color: #181818;
+}
+.section-description{
+    font-size: 18px;
+    color: #474747;
+}
+
 /* nav style */
 nav{
  display: flex;
@@ -79,4 +89,79 @@ nav ul a{
 .banner-title{
     font-weight: bold;
     font-size:70px;
+}
+
+/* about style section start */
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+.about{
+    padding: 130px 156px 41px 156px;
+    text-align: center;
+    margin: 130px;
+}
+.about-details{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* section what i do */
+.skills{
+    text-align: center;
+    padding: 115px;
+}
+.skills-item{
+    display: flex;
+    gap: 20px;
+}
+.skill{
+    border: 5px solid teal;
+    padding: 15px;
+    box-shadow: 0px 0px 50px 0px rgb(147, 140, 140);
+    border-radius: 10px;
+}
+
+/* resume details */
+.resume-details{
+    display: flex;
+    gap: 20px;
+}
+.resume-title-heading{
+    font-weight: bold;
+    font-size: 25px;
+    color: #474747;
+}
+.btn{
+    text-align: center;
+    margin-top: 10px;
+}
+.footer{
+    display: flex;
+    gap: 35px;
+    padding: 130px;
+
+}
+.footer-title{
+    font-weight: bold;
+    font-size: 35px;
+}
+.footer-description{
+    font-size: 16px;
+    font-weight: 400;
+    width: 500px;
+
+}
+
+footer input[type="text"], footer input[type="email"],footer button{
+    height: 64px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    display: block;
+    padding: 20px;
+}
+.btn{
+    margin-top: 24px;
 }
